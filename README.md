@@ -1,9 +1,8 @@
-# Falabella Frontend Test
+# React redux shopping demo app
 
-- [Minimum requirements](#minimum-requirements)
-- [Running the Application](#running-the-application)
-- [Test description](#test-description)
-
+- list products 
+- add product to cart
+- manager cart (price , items)
 
 ## Minimum requirements
 
@@ -24,32 +23,8 @@ $ npm run dev
 $ npm run webpack
 ```
 
+## Preview
 
-## Test description
-
-It is required to implement a simple shopping cart.
-
-It must have two important sections:
-
-- An Item list showing the product catalog
-- Basket list, having all the items which are going to be purchased by the user.
-
-These are the business rules:
-
-- Each catalog item must have an action button to `add item to cart`.
-
-- Each cart item must have an action button to `remove item from cart`.
+<img src="https://github.com/memayank2007/react-redux-shopping-cart/blob/master/preview.png">
 
 
-Here is the demo showing how it behave like:
-
-[demo video][demo]
-
-### Bonus points
-
-- Use redux as state manager.
-- Favor using map, filter, reduce, forEach.
-- Favor using functional components in your application.
-
-[nodejs]: https://nodejs.org/en/download/
-[demo]: https://www.dropbox.com/s/t6k4oypu2kg3h40/adessa-demo-video.mp4
